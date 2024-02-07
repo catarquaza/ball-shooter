@@ -25,7 +25,9 @@
 			},
 			"extensions": [
 				"ms-vscode.cpptools",
-				"espressif.esp-idf-extension"
+				"espressif.esp-idf-extension",
+				"eightHundreds.vscode-drawio",
+				"ms-vsliveshare.vsliveshare"
 			],
 		},
 		"codespaces": {
