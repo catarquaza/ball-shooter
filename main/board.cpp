@@ -1,15 +1,17 @@
 #include "board.hpp"
 
-void init()
+void Board::init()
 {
     // set up all the pins
+    // TODO: set up relay pin for coil
 }
 
-void set_output(BoardIo io, bool level)
+void Board::set_output(BoardIo io, bool level)
 {
+    // TODO: catch setting coil and apply - need i/o table
 }
 
-bool read_input(BoardIo io)
+bool Board::read_input(BoardIo io)
 {
     return true;
 }
