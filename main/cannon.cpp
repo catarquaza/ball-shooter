@@ -3,7 +3,7 @@
 
 void Cannon::fire()
 {
-    coil.on();
+    coil.pulse(250);
 }
 
 bool Cannon::is_ready()

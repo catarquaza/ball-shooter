@@ -6,5 +6,9 @@ enum class BoardIo
     FIRE_BTN
 };
 
-void init();
-void set_output(BoardIo io, bool level);
+namespace Board
+{
+    void init();
+    void set_output(BoardIo io, bool level);
+    bool read_input(BoardIo io);
+};
